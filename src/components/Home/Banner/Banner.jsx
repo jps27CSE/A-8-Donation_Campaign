@@ -1,6 +1,20 @@
+import { useState } from "react";
 import Background from "../../../assets/BannerPic.png";
+import { useInputValue } from "../../Context/InputValueContext";
 
 const Banner = () => {
+  const { setInputValue } = useInputValue();
+  const [searchInputValue, setSearchInputValue] = useState("");
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    setInputValue(searchInputValue);
+  };
+
+  const handleInputChange = (e) => {
+    setSearchInputValue(e.target.value);
+  };
+
   return (
     <div className="relative">
       <div
@@ -20,13 +34,20 @@ const Banner = () => {
         >
           I Grow By Helping People In Need
         </h1>
-        <div className="flex flex-row mt-5">
-          <input
-            type="text"
-            placeholder="Search"
-            className="input input-bordered w-full max-w-xs text-black"
-          />
-          <button className="btn btn-error text-white">Search</button>
+        <div>
+          <form className="flex flex-row mt-5" onSubmit={handleSearchSubmit}>
+            <input
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Search"
+              className="input input-bordered w-full max-w-xs text-black"
+            />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-error text-white"
+            />
+          </form>
         </div>
       </div>
     </div>

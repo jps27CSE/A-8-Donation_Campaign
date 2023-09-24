@@ -6,7 +6,7 @@ const Donation = () => {
   const [DonationData, setDonationData] = useState([]);
   const [ApplyDonate, setApplyDonate] = useState([]);
   const [lengthItems, setLengthItems] = useState(4);
-  const [displayData, setDisplayData] = useState([]);
+
   const [showAll, setShowAll] = useState(false);
   const handleShowAll = () => {
     setLengthItems(ApplyDonate.length);
@@ -17,7 +17,7 @@ const Donation = () => {
     fetch("Data.json")
       .then((res) => res.json())
       .then((data) => {
-        setDisplayData(data), setDonationData(data);
+        setDonationData(data);
       });
   }, []);
 

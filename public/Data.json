@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/GvQ86qz/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg_color": "#0052ff",
+    "card_bg_color": "#0052ff",
+    "text_button_bg_color": "#0052FF",
+    "description": "Provide clean and safe drinking water to children in need.",
+    "price": 199
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/NTZjzg1/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg_color": "#ff444a",
+    "card_bg_color": "#ff444a",
+    "text_button_bg_color": "#FF444A",
+    "description": "Support quality education initiatives for underprivileged students.",
+    "price": 249
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/mSdHZ2k/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79c23f",
+    "card_bg_color": "#79c23f",
+    "text_button_bg_color": "#79C23F",
+    "description": "Donate gently used clothing to help those in need.",
+    "price": 149
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/LzPjM3w/Rectangle-4287-2.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#f87147",
+    "card_bg_color": "#f87147",
+    "text_button_bg_color": "#F87147",
+    "description": "Provide nutritious meals to improve the lives of many.",
+    "price": 299
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/LzPjM3w/Rectangle-4287-2.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#f87147",
+    "card_bg_color": "#f87147",
+    "text_button_bg_color": "#F87147",
+    "description": "Help us make a difference in the fight against hunger.",
+    "price": 399
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/mSdHZ2k/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79c23f",
+    "card_bg_color": "#79c23f",
+    "text_button_bg_color": "#79C23F",
+    "description": "Support our clothing drive to clothe those in need.",
+    "price": 499
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/NTZjzg1/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg_color": "#ff444a",
+    "card_bg_color": "#ff444a",
+    "text_button_bg_color": "#FF444A",
+    "description": "Empower students with access to quality education.",
+    "price": 199
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/GvQ86qz/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg_color": "#0052ff",
+    "card_bg_color": "#0052ff",
+    "text_button_bg_color": "#0052FF",
+    "description": "Provide clean water to children for a healthier future.",
+    "price": 249
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/GvQ86qz/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg_color": "#0052ff",
+    "card_bg_color": "#0052ff",
+    "text_button_bg_color": "#0052FF",
+    "description": "Support our mission to ensure access to clean water for all.",
+    "price": 149
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/NTZjzg1/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg_color": "#ff444a",
+    "card_bg_color": "#ff444a",
+    "text_button_bg_color": "#FF444A",
+    "description": "Invest in the education of underprivileged students.",
+    "price": 299
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/mSdHZ2k/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79c23f",
+    "card_bg_color": "#79c23f",
+    "text_button_bg_color": "#79C23F",
+    "description": "Help those in need by donating your gently used clothing.",
+    "price": 399
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/LzPjM3w/Rectangle-4287-2.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#f87147",
+    "card_bg_color": "#f87147",
+    "text_button_bg_color": "#F87147",
+    "description": "Join us in the fight against hunger with better food access.",
+    "price": 499
+  }
+]

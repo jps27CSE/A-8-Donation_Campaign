@@ -10,7 +10,7 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className="max-w-6xl mx-auto mt-10 mb-5 grid grid-cols-4 justify-items-center gap-2">
+    <div className="max-w-6xl mx-auto mt-10 mb-5 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 justify-items-center gap-2">
       {cardData.map((card) => (
         <Card key={card.id} card={card} />
       ))}

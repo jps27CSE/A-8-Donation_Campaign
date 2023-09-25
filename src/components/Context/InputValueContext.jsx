@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-
+import PropTypes from "prop-types";
 const InputValueContext = createContext();
 
 export const useInputValue = () => useContext(InputValueContext);
@@ -12,4 +12,8 @@ export const InputValueProvider = ({ children }) => {
       {children}
     </InputValueContext.Provider>
   );
+};
+
+InputValueProvider.propTypes = {
+  children: PropTypes.node,
 };

@@ -39,7 +39,7 @@ const Banner = () => {
             <input
               onChange={handleInputChange}
               type="text"
-              placeholder="Search"
+              placeholder="Search Here"
               className="input input-bordered w-full max-w-xs text-black"
             />
             <input

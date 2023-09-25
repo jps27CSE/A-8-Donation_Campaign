@@ -37,7 +37,7 @@ const Donation = () => {
 
   return (
     <div className="max-w-6xl mx-auto mt-10 ">
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2  ">
         {ApplyDonate.slice(0, lengthItems).map((donation) => (
           <DonationCard key={donation.id} donation={donation} />
         ))}
@@ -46,7 +46,7 @@ const Donation = () => {
         {ApplyDonate.length > 4 && !showAll && (
           <button
             onClick={handleShowAll}
-            className="btn btn-success text-white mb-5"
+            className="btn btn-success text-white mb-5 ml-8 md:ml-0 lg:ml-0"
           >
             Show All
           </button>

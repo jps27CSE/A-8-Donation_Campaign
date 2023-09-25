@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const DonationCard = ({ donation }) => {
-  console.log(donation);
   const {
     picture,
     category,
@@ -14,7 +13,7 @@ const DonationCard = ({ donation }) => {
   } = donation;
   return (
     <div
-      className="mb-5 w-[550px] mr-5 rounded-lg flex flex-row"
+      className="mb-5 w-[420px] md:w-[550px] lg:w-[550px] mr-5 rounded-lg flex flex-row  ml-0  md:ml-24 lg:ml-0"
       style={{ backgroundColor: card_bg_color }}
     >
       <div>

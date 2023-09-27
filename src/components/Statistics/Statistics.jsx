@@ -59,12 +59,13 @@ const Statistics = () => {
   return (
     <div>
       <div className=" flex justify-center mx-auto mt-5 ">
-        <ApexChart
-          options={options}
-          series={pieChartData.map((item) => item.data)}
-          type="pie"
-          width={400}
-        />
+        <div className="w-[300px] md:w-[400px]  lg:w-[600px]">
+          <ApexChart
+            options={options}
+            series={pieChartData.map((item) => item.data)}
+            type="pie"
+          />
+        </div>
       </div>
     </div>
   );
